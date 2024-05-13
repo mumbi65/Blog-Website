@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;      
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.logo, .navigation{
+    margin: 10px;
+}
+
+.logo img{
+ width: 3rem;
+ margin-left: 30px;
+}
+.navigation{
+    align-items: center;
+    padding-right: 20px;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.navigation ul a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    color: gray;
+}
+
+.navigation ul a:hover{
+    color:coral;
+}
+
+.navigation ul a:active{
+    color: burlywood;
+}
+
+.animals{
+    border: 3px solid rgb(181, 181, 181);
+    margin: 1rem;
+    border-radius: .5rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.animals h1, p{
+    margin: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.button-animals{
+    margin: 1rem;
+    padding: 5px;
+    border: 2px rgb(186, 185, 185);
+    border-radius: 5px;
+    background-color: rgb(204, 203, 203);
+}
+
+.button-animals:hover{
+    color: chocolate;
+}
+
+.button-animals:active{
+    color: brown;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p{
+    text-align: center;
+}
